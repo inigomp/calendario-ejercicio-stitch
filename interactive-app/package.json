@@ -1,0 +1,26 @@
+{
+  "name": "interactive-app",
+  "version": "1.0.0",
+  "description": "An interactive application built with TypeScript.",
+  "main": "src/app.ts",
+  "homepage": "https://inigomp.github.io/interactive-app/",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "jest": "^27.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0",
+    "gh-pages": "^6.3.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
