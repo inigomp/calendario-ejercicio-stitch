@@ -17,6 +17,15 @@ interactive-app
 └── README.md                 # Project documentation
 ```
 
+## Prerequisites
+
+If your project uses React, install React and its type definitions:
+
+```
+npm install react react-dom
+npm install --save-dev @types/react @types/react-dom
+```
+
 ## Installation
 To install the necessary dependencies, run the following command:
 
