@@ -1,19 +1,2 @@
-class InteractiveComponent {
-    private state: any;
-
-    constructor() {
-        this.state = {};
-    }
-
-    public render(): void {
-        // Logic to render the component
-    }
-
-    public handleUserInteraction(event: Event): void {
-        // Logic to handle user interactions
-    }
-
-    // Additional methods can be added as needed
-}
-
-export default InteractiveComponent;
+// Elimina este archivo para evitar conflictos con el componente React.
+// No debe existir un archivo .ts con el mismo nombre que el .tsx del componente React.
